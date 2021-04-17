@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edit Project</title>
+</head>
+
+<body>
+    <header>
+        <h2>Project Explorer </h2>
+        <h4>One Stop Database for Academic Projects</h4>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="search.html">Projects</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="createproject.html">Submit</a>
+    </nav>
+    <main>
+        <section>
+            <h3>Project 1</h3>
+            <ul>
+                <li><b>Created by</b>: Jane Doe</li>
+                <li><b>Date created</b>: 05/06/2013</li>
+                <li><b>Last Updated</b>: 22/10/2017</li>
+            </ul>
+        </section>
+        <h2>Edit Project</h2>
+        <section>
+            <form name="editProject">
+                <div>Project Name:</div>
+                <div><input type="text" name="name" placeholder="Project Name"></div>
+                <br>
+                <div>Project Abstract:</div>
+                <textarea name="abstract"></textarea>
+                <br>
+                <br>
+                <div>Authors:</div>
+                <div><input type="text" name="authors"></div>
+                <br>
+                <div>Tag(s):</div>
+                <div><input type="text" name="tags"></div>
+                <br>
+                <div>Upload File</div>
+                <input type="file" name="projectFile">
+                <br>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
